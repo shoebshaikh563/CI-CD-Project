@@ -1,2 +1,3 @@
-FROME hshar/webapp 
-ADD . /var/www/html
+FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
+COPY . .
